@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .thought-box {
+    position: static;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+      bottom: 20px;
+      right: 20px;
+      background-color: #f9f9f9;
+      border-left: 5px solid #4CAF50;
+      padding: 10px 15px;
+      width: 250px;
+      font-size: 14px;
+      font-style: italic;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      transition: opacity 0.5s ease-in-out;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="headerdashboard">
+            <h1>Welcome to Study Group Connector</h1>
+        </div>
+
+        <div>
+            <div class="thought-box" id="thoughtBox">
+                Loading thought...
+            </div>
+            
+            <button class="button" onclick="signup()" >Sign up</button>
+            <button class="button" onclick="login()">Log in</button>
+        </div>
+    </header>
+
+<! have ahiya content nakhisu je su su che features and all>
+
+    <script>
+    const thoughts = [
+      "Believe in yourself, and magic will follow.",
+      "Every day is a fresh start.",
+      "Stay positive, work hard, make it happen.",
+      "Little steps lead to big results.",
+      "You are capable of amazing things.",
+      "Focus on progress, not perfection.",
+      "Don't wait for opportunity. Create it."
+    ];
+
+    let currentIndex = 0;
+    const thoughtBox = document.getElementById("thoughtBox");
+
+    function updateThought() {
+      thoughtBox.style.opacity = 0; // Fade out
+      setTimeout(() => {
+        thoughtBox.textContent = thoughts[currentIndex];
+        thoughtBox.style.opacity = 1; // Fade in
+        currentIndex = (currentIndex + 1) % thoughts.length;
+      }, 500);
+    }
+
+    //signup mate
+    function signup() {
+    window.location.href = "Signup.html"; // or full URL like "https://example.com"
+  }
+
+  //login mate
+  function login() {
+    window.location.href = "login.html"; // or full URL like "https://example.com"
+  }
+    // Initial load
+    updateThought();
+
+    // Update every 60 seconds (60000 ms)
+    setInterval(updateThought, 60000);
+  </script>
+</body>
+</html>
