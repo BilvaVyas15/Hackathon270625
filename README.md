@@ -57,8 +57,11 @@
 
 | Landing Page | Dashboard | Create/Join Group |
 |--------------|-----------|-------------------|
-| ![Landing](screenshots/landing.png) | ![Dashboard](screenshots/dashboard.png) | ![Groups](screenshots/groups.png) |
+| ![Landing](landingpage.png) | ![Dashboard](dashboard.png) | ![Create](creategroup.png) |
 
+| Sign In Page | Login | Discover Group |
+|--------------|-------|----------------|
+| ![Signin](signup.png) | ![Login](login.png) | ![Discover](discover.png)
 ---
 ## 🚀 Usage
 
@@ -121,5 +124,73 @@ This app enables seamless group-based learning and discovery among students and 
 | `├── package.json` | Project dependencies and metadata |
 | `└── README.md` | Project documentation |
 
+## 🤝 Contributing
 
+The Study Group Connector is a centralized platform designed to foster collaboration in educational environments by enabling students to form, join, and manage study groups effectively. This project contributes meaningfully to multiple stakeholders across the educational and tech ecosystems:
+
+🧑‍🎓 1. Students (Primary Users)
+The platform is built with students at its core, offering:
+
+Better Collaboration – Connects peers studying the same subjects.
+
+Peer Learning – Encourages mutual academic support and knowledge sharing.
+
+Time Management – Simplifies the scheduling of study sessions.
+
+Social Interaction – Reduces isolation, especially in remote/hybrid setups.
+
+🏫 2. Educational Institutions
+Institutions benefit from:
+
+Improved Student Engagement – Promotes active participation and self-initiative.
+
+Performance Tracking (if integrated) – Enables faculty to monitor group interactions.
+
+Reduced Academic Gaps – Assists weaker students through group learning.
+
+👩‍🏫 3. Faculty and Mentors
+While optionally involved, educators gain:
+
+Insight into Learning Trends – Observe group topics and engagement.
+
+Group-Level Feedback – Facilitate discussions or monitor group outcomes.
+
+Behavioral & Learning Patterns – Understand how students collaborate.
+
+👨‍💻 4. Developers and Contributors
+On the GitHub side, the project contributes to:
+
+Open Source Community – Sharing reusable code and clean architecture.
+
+Collaborative Development – Encouraging student coders to learn Git, GitHub, React, TypeScript, and MongoDB in real-world settings.
+
+Portfolio Building – Contributors gain hands-on experience and public recognition for their work.
+
+📚 5. Academic Outcomes
+The Study Group Connector enhances learning outcomes by:
+
+Increasing Retention & Motivation – Group environments keep learners engaged.
+
+Improving Exam Readiness – Group study helps reinforce core concepts.
+
+Encouraging Collaborative Thinking – Develops skills essential for both academics and the workforce.
+
+🧠 6. Technical Ecosystem
+Technically, the project contributes to:
+
+Education + Technology Integration – Demonstrates how modern stacks solve real-world academic problems.
+
+Modular, Scalable Design – Acts as a model for future ed-tech projects.
+
+Community Innovation – Opens possibilities for features like gamification, AI-based suggestions, and more.
+
+---
+
+## 🌟 Final Thoughts
+
+The Study Group Connector is more than just a platform — it’s a collaborative effort to reshape how students learn and connect. By combining educational purpose with open-source development, it bridges the gap between technology and academic growth.
+
+Whether you're a student looking to contribute ideas, a developer eager to build real-world skills, or an educator exploring new engagement tools — there's a place for you here.
+
+**We welcome contributions, feedback, and fresh perspectives. Let's build better learning experiences together. 🤝**
 
